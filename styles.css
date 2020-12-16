@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+.offset:before{
+    display: block;
+    content:"";
+    height: 4rem;
+/*    margin-top: -4rem;*/
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,0.6)!important;
+}
+
+.navbar-brand{
+    height: 3rem;
+}
+
+.navbar-nav li{
+    padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+    padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.acitve,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3 !important;
+}
+
+/*Landing page CSS*/
+.home-inner{
+    background-image: url(images/backgroundimg.jpg);
+}
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: :700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+.btn-lg{
+    border-width: medium !important;
+    border-radius: 0 !important;
+    padding: .6rem 1.3rem !important;
+    font-size: 1.1rem !important;
+}
+.thumbnail img{
+    max-width: 100%; /* do not stretch the bootstrap column */
+}
+
+.img-wrapper{
+	width: 100%;
+	padding-bottom: 50%; /* your aspect ratio here! */
+	position:relative;
+}
+
+.img-wrapper img{
+	position: absolute;
+	top: 0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+	min-height: 100%; /* optional: if you want the smallest images to fill the .thumbnail */
+}
+
+iframe {
+    border: 1px solid #D80018;
+}
+.container-fluid{
+    padding-bottom: 125px;
+}
+/*Pricing section CSS*/
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float:left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #D80018;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 0.5px grey;
+  border: 1px solid grey;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #D80018;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*
+.jumbotron{
+    background-color: grey !important;
+    padding: 100px 10 !important;
+    position: relative !important;
+}
+*/
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+/*About section start*/
+
+.narrow{
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;  
+}
+
+.narrow h1{
+    font-size: 2.4rem;
+}
+.btn-secondary{
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    margin: rem;
+    color: white;
+    background-color: #D80018 !important;
+    border-color: #D80018 !important;
+}
+.btn-secondary:hover{
+    background-color: red !important;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+}
+h3.heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color: red;
+    margin: 0 auto 2rem;
+}
+
+/*footer section*/
+footer{
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+footer a {
+    color: red;
+}
+
+footer svg.svg-inline--fa{
+    font-size: 1.6rem !important;
+    margin: 1.2rem .5rem 00;
+}
+
+hr.socket{
+    width: 100%;
+    color: white;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+    text-align: center;
+}
+
